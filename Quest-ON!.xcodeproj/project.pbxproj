@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19A1ED6C245599DE00F41998 /* imageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A1ED6B245599DE00F41998 /* imageView.swift */; };
+		19A1ED6E24559E4900F41998 /* comic_sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19A1ED6D24559E4900F41998 /* comic_sans.ttf */; };
 		19C593EC2454214000540D70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C593EB2454214000540D70 /* AppDelegate.swift */; };
 		19C593EE2454214000540D70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C593ED2454214000540D70 /* SceneDelegate.swift */; };
 		19C593F12454214000540D70 /* Quest_ON_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19C593EF2454214000540D70 /* Quest_ON_.xcdatamodeld */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19A1ED6B245599DE00F41998 /* imageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageView.swift; sourceTree = "<group>"; };
+		19A1ED6D24559E4900F41998 /* comic_sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = comic_sans.ttf; sourceTree = "<group>"; };
 		19C593E82454214000540D70 /* Quest-ON!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quest-ON!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C593EB2454214000540D70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19C593ED2454214000540D70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19A1ED6F24559E4F00F41998 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				19A1ED6D24559E4900F41998 /* comic_sans.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		19C593DF2454214000540D70 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		19C593EA2454214000540D70 /* Quest-ON! */ = {
 			isa = PBXGroup;
 			children = (
+				19A1ED6F24559E4F00F41998 /* Fonts */,
 				19C593EB2454214000540D70 /* AppDelegate.swift */,
 				19C593ED2454214000540D70 /* SceneDelegate.swift */,
 				19C593F22454214000540D70 /* ContentView.swift */,
@@ -66,6 +79,7 @@
 				19C593FC2454214300540D70 /* Info.plist */,
 				19C593EF2454214000540D70 /* Quest_ON_.xcdatamodeld */,
 				19C593F62454214300540D70 /* Preview Content */,
+				19A1ED6B245599DE00F41998 /* imageView.swift */,
 			);
 			path = "Quest-ON!";
 			sourceTree = "<group>";
@@ -139,6 +153,7 @@
 				19C593FB2454214300540D70 /* LaunchScreen.storyboard in Resources */,
 				19C593F82454214300540D70 /* Preview Assets.xcassets in Resources */,
 				19C593F52454214300540D70 /* Assets.xcassets in Resources */,
+				19A1ED6E24559E4900F41998 /* comic_sans.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +168,7 @@
 				19C593EC2454214000540D70 /* AppDelegate.swift in Sources */,
 				19C593F32454214000540D70 /* ContentView.swift in Sources */,
 				19C593EE2454214000540D70 /* SceneDelegate.swift in Sources */,
+				19A1ED6C245599DE00F41998 /* imageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
