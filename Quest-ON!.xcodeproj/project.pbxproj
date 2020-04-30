@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		196713EA245ACA1300AA7E1D /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196713E9245ACA1300AA7E1D /* TestController.swift */; };
+		196713EC245ACBCB00AA7E1D /* comic sans.ttf 20-36-27-993.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 196713EB245ACBCB00AA7E1D /* comic sans.ttf 20-36-27-993.ttf */; };
 		19A1ED6C245599DE00F41998 /* imageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A1ED6B245599DE00F41998 /* imageView.swift */; };
 		19A1ED6E24559E4900F41998 /* comic_sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19A1ED6D24559E4900F41998 /* comic_sans.ttf */; };
 		19C593EC2454214000540D70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C593EB2454214000540D70 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		196713E9245ACA1300AA7E1D /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		196713EB245ACBCB00AA7E1D /* comic sans.ttf 20-36-27-993.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "comic sans.ttf 20-36-27-993.ttf"; sourceTree = "<group>"; };
 		19A1ED6B245599DE00F41998 /* imageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageView.swift; sourceTree = "<group>"; };
 		19A1ED6D24559E4900F41998 /* comic_sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = comic_sans.ttf; sourceTree = "<group>"; };
 		19C593E82454214000540D70 /* Quest-ON!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quest-ON!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				19A1ED6D24559E4900F41998 /* comic_sans.ttf */,
+				196713EB245ACBCB00AA7E1D /* comic sans.ttf 20-36-27-993.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				19C593FB2454214300540D70 /* LaunchScreen.storyboard in Resources */,
 				19C593F82454214300540D70 /* Preview Assets.xcassets in Resources */,
+				196713EC245ACBCB00AA7E1D /* comic sans.ttf 20-36-27-993.ttf in Resources */,
 				19C593F52454214300540D70 /* Assets.xcassets in Resources */,
 				19A1ED6E24559E4900F41998 /* comic_sans.ttf in Resources */,
 			);
