@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		196713EA245ACA1300AA7E1D /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196713E9245ACA1300AA7E1D /* TestController.swift */; };
 		19A1ED6C245599DE00F41998 /* imageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A1ED6B245599DE00F41998 /* imageView.swift */; };
 		19A1ED6E24559E4900F41998 /* comic_sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19A1ED6D24559E4900F41998 /* comic_sans.ttf */; };
 		19C593EC2454214000540D70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C593EB2454214000540D70 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		196713E9245ACA1300AA7E1D /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
 		19A1ED6B245599DE00F41998 /* imageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageView.swift; sourceTree = "<group>"; };
 		19A1ED6D24559E4900F41998 /* comic_sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = comic_sans.ttf; sourceTree = "<group>"; };
 		19C593E82454214000540D70 /* Quest-ON!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quest-ON!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +48,7 @@
 		196713E8245AC96B00AA7E1D /* TEST */ = {
 			isa = PBXGroup;
 			children = (
+				196713E9245ACA1300AA7E1D /* TestController.swift */,
 			);
 			path = TEST;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				19C593F12454214000540D70 /* Quest_ON_.xcdatamodeld in Sources */,
 				19C593EC2454214000540D70 /* AppDelegate.swift in Sources */,
 				19C593F32454214000540D70 /* ContentView.swift in Sources */,
+				196713EA245ACA1300AA7E1D /* TestController.swift in Sources */,
 				19C593EE2454214000540D70 /* SceneDelegate.swift in Sources */,
 				19A1ED6C245599DE00F41998 /* imageView.swift in Sources */,
 			);
