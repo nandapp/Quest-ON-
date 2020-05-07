@@ -10,24 +10,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
+//        TabView(selection: /*@START_MENU_TOKEN@*/ /*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
+//        /*@START_MENU_TOKEN@*/Text("Tab Content 1").tabItem { Text("Tab Label 1") }.tag(1)/*@END_MENU_TOKEN@*/
+//        /*@START_MENU_TOKEN@*/Text("Tab Content 2").tabItem { Text("Tab Label 2") }.tag(2)/*@END_MENU_TOKEN@*/
+//        }
+        TabView {
             Color.purple
                 .edgesIgnoringSafeArea(.all)
-            VStack(alignment: .leading) {
-                Text("Let's Go \n Quest-ON!")
-                    .font(Font.custom("comic_sans", size: 33))
-                    .multilineTextAlignment(.center)
-                Text("Let's Go \n Quest-ON!")
-//                    .font(.largeTitle)
-                    .font(.custom("comic_sans", size: 60))
-//                    .font(.system(size: 60))
-                    .fontWeight(.semibold)
-                    .foregroundColor(.white)
-                    .multilineTextAlignment(.center)
-//                Text("Tulis apa ya ?")
-//                    .font(.subheadline)
+            Text("Free Question!")
+                .tabItem{
+                    Image(systemName: "okay")
+                    Text("Free")
+            }
+            Text("Topic Question!")
+                .tabItem{
+                    Image(systemName: "okay")
+                    Text("Topic")
             }
         }
+        .font(.headline)
     }
 }
 
